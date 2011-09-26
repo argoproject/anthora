@@ -1,0 +1,347 @@
+/*   
+Theme Name: Anthora
+Description: Argo Child theme
+Author: NPR
+Template: argo-foundation 
+Version: 1.0
+
+*/
+
+@import url(../argo-foundation/css/960.css);
+@import url(../argo-foundation/css/foundation.css);
+
+/*.container_12 {
+background: #fff url(../argo-foundation/img/dev-images/12_col.gif) repeat-y;
+}*/
+
+
+@font-face {
+	font-family: 'AlteHaasGroteskRegular';
+	src: local('☺'), url('font/altehaasgroteskregular-webfont.woff') format('woff'), url('font/altehaasgroteskregular-webfont.ttf') format('truetype'), url('font/altehaasgroteskregular-webfont.svg#webfontaNcZHXqk') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AlteHaasGroteskBold';
+	src: local('☺'), url('font/altehaasgroteskbold-webfont.woff') format('woff'), url('font/altehaasgroteskbold-webfont.ttf') format('truetype'), url('font/altehaasgroteskbold-webfont.svg#webfontlMk0h2eA') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+/************* GLOBAL NAVIGATION ******************/
+
+.global-nav-bg {
+height: 35px;
+background: #373737 url(img/global-nav-gradient.jpg) repeat-x;
+margin-bottom: 0;
+}
+
+.global-nav {
+height: 33px;
+}
+
+.station-home {
+text-indent: -10000px;
+width:70px;
+height: 37px !important;
+background: transparent url(parent-logo.png) no-repeat;
+margin: 8px 10px 0 0 !important;
+border: none !important;
+}
+
+.station-home a {
+display: block;
+width: 70px;
+height: 37px;
+}
+
+.global-nav li {
+font-family: helvetica, arial, sans-serif;
+margin-top: 10px;
+padding-left: 10px;
+border-left: 1px solid #fff;
+line-height: 11px;
+}
+
+.global-nav a {
+color: #fff;
+font-weight: normal;
+font-size: 11px !important;
+}
+
+.global-nav .support a {
+background-color: #216dc6;
+color: #fff;
+border: 2px solid #1257af;
+}
+
+.global-nav .support a:hover {
+color: #2d2b26;
+background-color: #fff;
+border: 2px solid #ddd;
+
+}
+
+.global-nav .network-branding {
+top: 0;
+border: 1px solid #a2a2a2;
+}
+
+/************* BRANDING ******************/
+
+#header {
+height: 190px;
+padding-top: 15px;
+background: transparent url(img/header-bg.png) repeat-x;
+}
+
+.branding h1 {
+text-indent: -10000px;
+margin: 10px 0 0 0 !important;
+font-family: Helvetica, Arial, sans-serif;
+padding: 0;
+}
+
+.branding h1 a {
+display: block;
+background: transparent url(img/anthora-logo.png) no-repeat;
+width: 452px; 
+height: 108px;
+}
+
+.branding h2 {
+margin: -35px 0 0 88px !important;
+font-family: Helvetica, Arial, sans-serif;
+padding: 0;
+font-size: 20px;
+}
+
+.features img {
+border: 1px solid #ccc;
+}
+
+
+/************* MAIN NAVIGATION ******************/
+
+#main-nav {
+margin-top: -42px;
+padding: 5px 0 0 10px;
+background: transparent url("img/main-nav-bg.png") no-repeat;
+}
+
+#topnav li a {
+color: #216dc6;
+font-size: 18px;
+padding-top: 3px;
+}
+
+#topnav li:hover a, #topnav li a:hover { 
+background-color: #2d2b26;
+color: #fff; 
+border-bottom: 8px solid #2d2b26;
+}
+
+#topnav li .sub {
+top: 35px; 
+border: 4px solid #2d2b26;
+}
+
+#topnav .sub .inner-menu a {
+color: #216dc6;
+font-size: 14px;
+}
+
+#topnav .sub .inner-menu a:hover {
+color: #216dc6;
+}
+
+#follow-us {
+right: 210px;
+top: 4px;
+}
+
+#follow-us a {
+border: 1px solid #ccc;
+}
+
+#searchform {
+right: 0;
+top: 4px;
+}
+
+.ie6 #follow-us, .ie6 #searchform {
+top: 0;
+}
+
+/************* DONT MISS ******************/
+
+#topics-bar {
+border-top: none;
+}
+
+#topics-bar li a {
+font-size: 13px;
+font-weight: normal;
+background-color: transparent;
+padding: 2px 8px;
+color: #216dc6;
+line-height: 1;
+border-right: 1px solid #ddd;
+font-style: italic;
+}
+
+#topics-bar li a:hover {
+background-color: transparent;
+text-decoration: underline;
+}
+
+#topics-bar h4 {
+color: #666;
+font-style: italic;
+}
+
+
+#topics-bar h5 a {
+color: #333;
+}
+
+/************* CONTENT WELL ******************/
+
+#content img {
+border: 1px solid #666;
+}
+
+#content h2 {
+margin: 20px 0 10px 0;
+font-family: AlteHaasGroteskRegular, helvetica, arial, sans-serif;
+font-size: 30px;
+line-height: 1.1;
+color: #333;
+}
+
+#content h2 a {
+color: #333;
+}
+
+.single #content h2 {
+margin: 10px 0;
+}
+
+.post blockquote {
+background-color: #f4f4f4;
+}
+
+.category .page-title, .tag .page-title, .page .entry-title {
+color: #333;
+}
+
+#content .pull-quote, #footer h3 {
+font-family: 'AlteHaasGroteskRegular', helvetica, arial, sans-serif;
+font-style: normal;
+}
+
+#content .pull-quote p, #content .pull-quote h6 {
+font-style: normal;
+font-weight: normal;
+color: #666;
+}
+
+#content .pull-quote h6 {
+font-size: 14px;
+}
+
+#content a, #content .post-meta h5 a{
+color: #216dc6;
+}
+
+.ie6 .category-topics a, .ie6 .category-articles a {
+background: transparent !important;
+border: none !important;
+}
+
+
+
+
+/************* SIDEBAR ******************/
+
+#sidebar h2, #sidebar h3 {
+font-family: 'AlteHaasGroteskBold', helvetica, arial, sans-serif;
+font-size: 22px;
+color: #216dc6;
+margin-bottom: 5px;
+}
+
+#sidebar li, #sidebar p {
+font-size: 11px;
+line-height: 1.6em;
+color: #999;
+}
+
+/* blogroll */
+
+.blogroll li a {
+white-space: normal;
+}
+
+/*most commented*/
+
+.level3 {
+background-color: #999;
+color: #fff;
+}
+
+.level2 {
+background-color: #ccc;
+}
+
+.level1 {
+background-color: #eee;
+}
+
+/*buttons*/
+
+#sidebar .donate h3, #sidebar .donate p {
+color: #fff;
+}
+
+#sidebar .button, #sidebar .donate .button {
+font-family: helvetica, arial, sans-serif;
+background-color: #999;
+color: #fff;
+border: 1px solid #909090;
+}
+
+#sidebar .button:hover, #sidebar .donate .button:hover {
+background-color: #2d2b26;
+}
+
+/*greatest hits */
+
+.widget_nav_menu h2 {
+font-family: 'AlteHaasGroteskRegular', helvetica, arial, sans-serif;
+font-size: 25px;
+color: #216DC6;
+}
+
+#menu-greatest-hits li {
+font-family: 'AlteHaasGroteskRegular', helvetica, arial, sans-serif;
+color: #333;
+font-size: 24px;
+margin-left: 35px;
+}
+
+#menu-greatest-hits a {
+font-family: Helvetica, Arial, sans-serif;
+color: #666;
+font-weight: normal;
+}
+
+/************* FOOTER ******************/
+
+#site-footer {
+background-color: #333;
+color: #999;
+}
