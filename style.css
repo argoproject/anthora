@@ -1,35 +1,28 @@
 /*   
 Theme Name: Anthora
-Description: Argo Child theme
-Author: NPR
-Template: argo-foundation 
+Description: An Argo child theme
+Author: Project Argo
+Template: argo 
 Version: 1.0
 
 */
 
-@import url(../argo-foundation/css/960.css);
-@import url(../argo-foundation/css/foundation.css);
-
-/*.container_12 {
-background: #fff url(../argo-foundation/img/dev-images/12_col.gif) repeat-y;
-}*/
-
+@import url(../argo/css/960.css);
+@import url(../argo/css/foundation.css);
 
 @font-face {
 	font-family: 'AlteHaasGroteskRegular';
-	src: local('☺'), url('font/altehaasgroteskregular-webfont.woff') format('woff'), url('font/altehaasgroteskregular-webfont.ttf') format('truetype'), url('font/altehaasgroteskregular-webfont.svg#webfontaNcZHXqk') format('svg');
+	src: local('☺'), url('font/altehaasgroteskregular-webfont.woff') format('woff'), url('font/altehaasgroteskregular-webfont.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'AlteHaasGroteskBold';
-	src: local('☺'), url('font/altehaasgroteskbold-webfont.woff') format('woff'), url('font/altehaasgroteskbold-webfont.ttf') format('truetype'), url('font/altehaasgroteskbold-webfont.svg#webfontlMk0h2eA') format('svg');
+	src: local('☺'), url('font/altehaasgroteskbold-webfont.woff') format('woff'), url('font/altehaasgroteskbold-webfont.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
-
-
 
 /************* GLOBAL NAVIGATION ******************/
 
@@ -41,21 +34,6 @@ margin-bottom: 0;
 
 .global-nav {
 height: 33px;
-}
-
-.station-home {
-text-indent: -10000px;
-width:70px;
-height: 37px !important;
-background: transparent url(parent-logo.png) no-repeat;
-margin: 8px 10px 0 0 !important;
-border: none !important;
-}
-
-.station-home a {
-display: block;
-width: 70px;
-height: 37px;
 }
 
 .global-nav li {
@@ -72,24 +50,6 @@ font-weight: normal;
 font-size: 11px !important;
 }
 
-.global-nav .support a {
-background-color: #216dc6;
-color: #fff;
-border: 2px solid #1257af;
-}
-
-.global-nav .support a:hover {
-color: #2d2b26;
-background-color: #fff;
-border: 2px solid #ddd;
-
-}
-
-.global-nav .network-branding {
-top: 0;
-border: 1px solid #a2a2a2;
-}
-
 /************* BRANDING ******************/
 
 #header {
@@ -98,31 +58,9 @@ padding-top: 15px;
 background: transparent url(img/header-bg.png) repeat-x;
 }
 
-.branding h1 {
-text-indent: -10000px;
-margin: 10px 0 0 0 !important;
-font-family: Helvetica, Arial, sans-serif;
-padding: 0;
-}
-
-.branding h1 a {
-display: block;
-background: transparent url(img/anthora-logo.png) no-repeat;
-width: 452px; 
-height: 108px;
-}
-
-.branding h2 {
-margin: -35px 0 0 88px !important;
-font-family: Helvetica, Arial, sans-serif;
-padding: 0;
-font-size: 20px;
-}
-
 .features img {
 border: 1px solid #ccc;
 }
-
 
 /************* MAIN NAVIGATION ******************/
 
@@ -159,7 +97,6 @@ color: #216dc6;
 }
 
 #follow-us {
-right: 210px;
 top: 4px;
 }
 
@@ -214,8 +151,7 @@ color: #333;
 border: 1px solid #666;
 }
 
-#content h2 {
-margin: 20px 0 10px 0;
+#content h2, .entry-title, .page-title {
 font-family: AlteHaasGroteskRegular, helvetica, arial, sans-serif;
 font-size: 30px;
 line-height: 1.1;
@@ -224,10 +160,6 @@ color: #333;
 
 #content h2 a {
 color: #333;
-}
-
-.single #content h2 {
-margin: 10px 0;
 }
 
 .post blockquote {
@@ -262,9 +194,6 @@ background: transparent !important;
 border: none !important;
 }
 
-
-
-
 /************* SIDEBAR ******************/
 
 #sidebar h2, #sidebar h3 {
@@ -278,12 +207,6 @@ margin-bottom: 5px;
 font-size: 11px;
 line-height: 1.6em;
 color: #999;
-}
-
-/* blogroll */
-
-.blogroll li a {
-white-space: normal;
 }
 
 /*most commented*/
