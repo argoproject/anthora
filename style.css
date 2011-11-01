@@ -2,13 +2,13 @@
 Theme Name: Anthora
 Description: An Argo child theme
 Author: Project Argo
-Template: argo 
+Template: Argo 
 Version: 1.0
 
 */
 
-@import url(../argo/css/960.css);
-@import url(../argo/css/foundation.css);
+@import url(../Argo/css/960.css);
+@import url(../Argo/css/foundation.css);
 
 @font-face {
 	font-family: 'AlteHaasGroteskRegular';
